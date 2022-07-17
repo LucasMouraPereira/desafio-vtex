@@ -1,5 +1,8 @@
 {
-  "thelastpagebookstore": {
+  "Greeting": {
     "component": "Greeting"
-  }
+  },
+   "CashbackValue": {
+     "component": "CashbackValue"
+   }
 }
