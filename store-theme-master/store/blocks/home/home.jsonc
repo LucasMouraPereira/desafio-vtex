@@ -2,6 +2,8 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
@@ -14,16 +16,16 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 570,
+      "height": 350,
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif",
+          "mobileImage": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://i.postimg.cc/QttxzdMG/2.png",
+          "mobileImage": "https://i.postimg.cc/QttxzdMG/2.png"
         }
       ]
     }
@@ -75,7 +77,7 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageUrl": "https://i.postimg.cc/WpfYxCxr/Banner-para-Linkedin-capa-de-perfil-para-programador.png",
       "headline": "Veja as principais tendências",
       "callToActionText": "Confira",
       "callToActionUrl": "/sale/d",
