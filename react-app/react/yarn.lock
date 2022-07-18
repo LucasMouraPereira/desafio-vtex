@@ -2094,9 +2094,9 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658067569/public/@types/controll.thelastpagebookstore":
+"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658148690/public/@types/controll.thelastpagebookstore":
   version "0.0.0"
-  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658067569/public/@types/controll.thelastpagebookstore#9f78e1bdb7a33799a3160b40774ccde43751c44e"
+  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658148690/public/@types/controll.thelastpagebookstore#4427fa2dba553d337e91ef92196fadb9531e69a8"
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
@@ -4950,6 +4950,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
+
 "vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context":
   version "0.10.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context#c5e2a97b404004681ee12f4fff7e6b62157786cc"
@@ -4957,6 +4961,10 @@ verror@1.10.0:
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
   version "8.132.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
+
+"vtex.store-icons@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons":
+  version "0.18.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons#0ee94d549aa283ce3a13ab987c13eac4fdfd1bba"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

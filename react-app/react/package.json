@@ -19,10 +19,12 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "controll.thelastpagebookstore": "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658067569/public/@types/controll.thelastpagebookstore",
+    "controll.thelastpagebookstore": "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658148690/public/@types/controll.thelastpagebookstore",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles",
     "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime"
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
+    "vtex.store-icons": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons"
   }
 }

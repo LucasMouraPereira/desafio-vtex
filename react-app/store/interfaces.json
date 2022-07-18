@@ -2,7 +2,13 @@
   "Greeting": {
     "component": "Greeting"
   },
-   "CashbackValue": {
-     "component": "CashbackValue"
-   }
+  "CashbackValue": {
+    "component": "CashbackValue"
+  },
+  "CashbackBanner": {
+    "component": "CashbackBanner"
+  },
+  "CashbackParticipation": {
+    "component": "CashbackParticipation"
+  }
 }
