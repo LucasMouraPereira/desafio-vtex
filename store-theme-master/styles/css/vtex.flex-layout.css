@@ -18,7 +18,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #ff7300;
   color: #fff;
 }
 
@@ -34,7 +34,8 @@
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
@@ -43,7 +44,7 @@
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #232e32;
   padding: 14px 0px;
 }
 

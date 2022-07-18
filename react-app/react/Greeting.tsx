@@ -3,7 +3,7 @@ import React from 'react'
 const Greeting: StorefrontFunctionComponent = () => {
   return (
     <>
-      <h1>Mirian</h1>
+      <h1>Hello Wold</h1>
     </>
   )
 }

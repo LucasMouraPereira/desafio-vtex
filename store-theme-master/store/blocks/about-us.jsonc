@@ -1,0 +1,14 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "CashbackBanner",
+      "CashbackParticipation"
+    ]
+  },
+  "CashbackParticipation#about-us": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  }
+}

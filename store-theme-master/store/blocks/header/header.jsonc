@@ -19,7 +19,6 @@
       "fullWidth": true
     }
   },
-
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",

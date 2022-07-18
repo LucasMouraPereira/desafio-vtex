@@ -13,9 +13,9 @@
   },
   "flex-layout.col#productRating": {
     "props": {
-      "blockClass": "productRating"
+      "blockClass": "cashback"
     },
-    "children": ["product-rating-inline"]
+    "children": ["CashbackValue"]
   },
 
   "stack-layout#prodsum": {

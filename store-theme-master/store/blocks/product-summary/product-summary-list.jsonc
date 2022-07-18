@@ -68,6 +68,7 @@
       "flex-layout.row#productSpecifications"
     ]
   },
+  
   "flex-layout.row#productSpecifications": {
     "children": [
       "product-specification-group#summary"

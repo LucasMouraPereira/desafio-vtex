@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
@@ -13,30 +12,30 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "Shop",
-        "text": "Shop"
+        "text": "Smartbee Shopping"
       }
     }
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
+      "menu-item#about-us"
     ]
   },
-  "menu-item#vtex-website": {
+  "menu-item#about-us": {
     "props": {
-      "id": "menu-item-vtex-website",
+      "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Cashback",
+        "text": "Saiba mais sobre nossa política de cachback*"
       }
     }
   }

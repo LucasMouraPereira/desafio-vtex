@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "thelastpagebookstore",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -46,7 +45,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Catálogo",
+      "text": "## LANÇAMENTOS",
       "blockClass": "shelfTitle"
     }
   },
@@ -76,8 +75,14 @@
   "info-card#home": {
     "props": {
       "id": "info-card-home",
-      "imageUrl": "https://i.postimg.cc/WpfYxCxr/Banner-para-Linkedin-capa-de-perfil-para-programador.png"
-
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://i.postimg.cc/WpfYxCxr/Banner-para-Linkedin-capa-de-perfil-para-programador.png",
+      "headline": "Veja as principais tendências",
+      "callToActionText": "Confira",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
     }
   }
 }
