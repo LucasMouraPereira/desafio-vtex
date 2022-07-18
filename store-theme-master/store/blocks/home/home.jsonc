@@ -1,0 +1,83 @@
+{
+  "store.home": {
+    "blocks": [
+      "thelastpagebookstore",
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "info-card#home",
+      "newsletter"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 350,
+      "preload": true,
+      "images": [
+        {
+          "image": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif",
+          "mobileImage": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif"
+        },
+        {
+          "image": "https://i.postimg.cc/QttxzdMG/2.png",
+          "mobileImage": "https://i.postimg.cc/QttxzdMG/2.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Catálogo",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "imageUrl": "https://i.postimg.cc/WpfYxCxr/Banner-para-Linkedin-capa-de-perfil-para-programador.png"
+
+    }
+  }
+}
