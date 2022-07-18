@@ -2246,9 +2246,9 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658153894/public/@types/controll.thelastpagebookstore":
+"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658178011/public/@types/controll.thelastpagebookstore":
   version "0.0.0"
-  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658153894/public/@types/controll.thelastpagebookstore#32284068401a762b6033334bd333f059e3f142b4"
+  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658178011/public/@types/controll.thelastpagebookstore#b827bec9a9fa436fff9077b2c0bea4b6d69af997"
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -5140,9 +5140,9 @@ unset-value@^1.0.0:
     isobject "^3.0.0"
 
 update-browserslist-db@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.4.tgz#dbfc5a789caa26b1db8990796c2c8ebbce304824"
-  integrity sha512-jnmO2BEGUjsMOe/Fg9u0oczOe/ppIDZPebzccl1yDWGLFP16Pa1/RM5wEoKYPG2zstNcDuAStejyxsOuKINdGA==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.5.tgz#be06a5eedd62f107b7c19eb5bcefb194411abf38"
+  integrity sha512-dteFFpCyvuDdr9S/ff1ISkKt/9YZxKjI9WlRR99c180GaztJtRa/fn18FdxGVKVsnPY7/a/FDN68mcvUmP4U7Q==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"

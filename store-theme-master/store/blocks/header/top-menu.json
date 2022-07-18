@@ -26,13 +26,13 @@
   },
   "menu-item#about-us": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-info-cashback",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/info-cashback",
         "noFollow": false,
         "tagTitle": "Cashback",
         "text": "Saiba mais sobre nossa política de cachback*"

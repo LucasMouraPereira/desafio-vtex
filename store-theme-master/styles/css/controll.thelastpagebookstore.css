@@ -10,11 +10,39 @@
   color: #ff7300;
 }
 
+.wrapperBanner {
+  background: #e64f25;
+  color: #e2e0d7;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerTitle {
+  font-size: 62px;
+  line-height: 26px;
+}
+
+.bannerSubtitle {
+  font-size: 42px;
+  line-height: 26px;
+}
+
+.bannerText {
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+}
+
 .wrapperCashbackInfo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 120px;
+  background: #e2e0d7;
 }
 
 .title {
@@ -22,7 +50,7 @@
   font-size: 36px;
   line-height: 120%;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 60px;
 }
 
 .wrapperIconList {
@@ -30,12 +58,76 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1040px) {
+  .wrapperIconList {
+    flex-direction: column;
+    gap: 26px;
+  }
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .wrapperIcon {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.iconTitle {
+  color: #404041;
+  text-transform: uppercase;
+  margin: 16px 0 16px 0;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.iconText {
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+  color: #e64f25;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.iconText2 {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  color: #e64f25;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.iconInfo {
+  color: #404041;
+  font-weight: 700;
+}
+
+.plusIcon {
+  color: #e64f25;
+}
+
+.cartIcon {
+  color: #e64f25;
+}
+
+.heartIcon {
+  color: #e64f25;
+}
+
+.searchIcon {
+  color: #e64f25;
+}
+
+.profileIcon {
+  color: #e64f25;
 }

@@ -2,6 +2,9 @@
   "store.custom#about-us": {
     "path": "/about-us"
   },
+  "store.custom#info-cashback": {
+    "path": "/info-cashback"
+  },
   "store.custom#faq": {
     "path": "/faq"
   },

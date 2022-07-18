@@ -1,5 +1,11 @@
 import React from 'react'
-import { IconPlus } from 'vtex.store-icons'
+import {
+  IconPlus,
+  IconCart,
+  IconHeart,
+  IconSearch,
+  IconProfile,
+} from 'vtex.store-icons'
 import { useCssHandles } from 'vtex.css-handles'
 
 const CSS_HANDLES = [
@@ -7,8 +13,11 @@ const CSS_HANDLES = [
   'title',
   'wrapperIconList',
   'wrapperIcon',
-  'IconTitle',
-  'IconText',
+  'iconTitle',
+  'iconText',
+  'iconText2',
+  'iconInfo',
+  'plus',
 ]
 
 const CashbackParticipation: StorefrontFunctionComponent = () => {
@@ -19,40 +28,47 @@ const CashbackParticipation: StorefrontFunctionComponent = () => {
       <h2 className={`${handles.title}`}>Veja como é fácil participar</h2>
       <div className={`${handles.wrapperIconList}`}>
         <div className={`${handles.wrapperIcon}`}>
-          <img src="" alt="" />
-          <p className={`${handles.IconTitle}`}>COMPRE</p>
-          <span className={`${handles.IconText}`}>
-            A cada um <strong>R$ 1</strong> em produtos
+          <IconCart size={80} />
+          <p className={`${handles.iconTitle}`}>COMPRE</p>
+          <span className={`${handles.iconText}`}>
+            A cada <strong className={`${handles.iconInfo}`}>R$ 1</strong> em
+            produtos
           </span>
         </div>
-        <div>
+        <div className={`${handles.plus}`}>
           <IconPlus />
         </div>
         <div className={`${handles.wrapperIcon}`}>
-          <img src="" alt="" />
-          <p className={`${handles.IconTitle}`}>GANHE</p>
-          <span className={`${handles.IconText}`}>
-            <strong>1</strong> ponto
+          <IconHeart size={80} />
+          <p className={`${handles.iconTitle}`}>GANHE</p>
+          <span className={`${handles.iconText}`}>
+            <strong className={`${handles.iconInfo}`}>1</strong> ponto
           </span>
         </div>
-        <div>
+        <div className={`${handles.plus}`}>
           <IconPlus />
         </div>
         <div className={`${handles.wrapperIcon}`}>
-          <img src="" alt="" />
-          <p className={`${handles.IconTitle}`}>TROQUE</p>
-          <span className={`${handles.IconText}`}>
-            Por outros<strong>produtos ou serviços</strong> em lojas parceiras
+          <IconSearch size={80} />
+          <p className={`${handles.iconTitle}`}>TROQUE</p>
+          <span className={`${handles.iconText2}`}>
+            Por outros{' '}
+            <strong className={`${handles.iconInfo}`}>
+              produtos ou serviços
+            </strong>{' '}
+            em lojas parceiras
           </span>
         </div>
-        <div>
+        <div className={`${handles.plus}`}>
           <IconPlus />
         </div>
         <div className={`${handles.wrapperIcon}`}>
-          <img src="" alt="" />
-          <p className={`${handles.IconTitle}`}>CADASTRE</p>
-          <span className={`${handles.IconText}`}>
-            Para acessar a <strong>sua conta</strong> e veja seus pontos
+          <IconProfile size={80} />
+          <p className={`${handles.iconTitle}`}>CADASTRE</p>
+          <span className={`${handles.iconText2}`}>
+            Para acessar a{' '}
+            <strong className={`${handles.iconInfo}`}>sua conta</strong> e veja
+            seus pontos
           </span>
         </div>
       </div>
