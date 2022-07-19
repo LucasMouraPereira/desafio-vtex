@@ -10,5 +10,12 @@
   },
   "CashbackParticipation": {
     "component": "CashbackParticipation"
+  },
+  "CashbackButton": {
+    "component": "CashbackButton"
+  },
+  "CashbackContainerAccount": {
+    "component": "CashbackContainerAccount",
+    "composition": "children"
   }
 }

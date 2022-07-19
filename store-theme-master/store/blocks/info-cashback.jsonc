@@ -2,7 +2,18 @@
   "store.custom#info-cashback": {
     "blocks": [
       "CashbackBanner",
-      "CashbackParticipation"
+      "CashbackParticipation",
+      "CashbackContainerAccount"
     ]
+  },
+
+  "CashbackContainerAccount": {
+    "children": [
+      "login",
+      "CashbackButton"
+    ],
+    "props": {
+      "blockclass": "textAccount"
+    }
   }
 }

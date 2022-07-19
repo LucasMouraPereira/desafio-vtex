@@ -20,6 +20,26 @@
   align-items: center;
 }
 
+.wrapperButton {
+  margin-bottom: 60px;
+}
+
+.accountButton {
+  width: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1rem;
+  vertical-align: middle;
+  line-height: 1;
+  color: #fff;
+  border-color: #ff7300;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #ff7300;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
 .bannerTitle {
   font-size: 62px;
   line-height: 26px;
@@ -130,4 +150,15 @@
 
 .profileIcon {
   color: #e64f25;
+}
+
+.wrapperAccount {
+  width: 100%;
+  background: #e2e0d7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0 20px;
 }
