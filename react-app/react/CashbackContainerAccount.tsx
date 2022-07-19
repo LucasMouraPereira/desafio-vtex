@@ -3,7 +3,8 @@ import { useCssHandles } from 'vtex.css-handles'
 
 const CSS_HANDLES = [
   'wrapperAccount',
-  'title'
+  'title',
+  'textInformation'
 ]
 
 const CashbackContainerAccount: StorefrontFunctionComponent = ({ children } : any) => {
@@ -14,6 +15,7 @@ const CashbackContainerAccount: StorefrontFunctionComponent = ({ children } : an
       <h3 className={`${handles.title}`}>
         Veja sua Pontuação
       </h3>
+      <p className={`${handles.textInformation}`}>Acesse sua conta</p>
       {children}
     </div>
   )

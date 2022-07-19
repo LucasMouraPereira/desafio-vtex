@@ -5,7 +5,7 @@ const MyAppLink = ({ render, intl }) => {
   return render([
     {
       name: intl.formatMessage({ id: 'store/userSupport.link' }),
-      path: '/support',
+      path: '/cashback',
     },
   ])
 }

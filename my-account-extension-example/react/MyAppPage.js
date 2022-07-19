@@ -1,11 +1,13 @@
+/* eslint-disable import/order */
+/* eslint-disable react/jsx-filename-extension */
 import React, { Fragment } from 'react'
 import { Route } from 'vtex.my-account-commons/Router'
 // Your component pages
-import UserSupport from './components/UserSupport'
+import Cashback from './components/Cashback'
 
 const MyAppPage = () => (
   <Fragment>
-    <Route exact path="/support" component={UserSupport} />
+    <Route path="/cashback" component={Cashback} />
   </Fragment>
 )
 

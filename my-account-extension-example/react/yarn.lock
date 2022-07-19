@@ -88,9 +88,9 @@ change-emitter@^0.1.2:
   resolved "https://registry.yarnpkg.com/change-emitter/-/change-emitter-0.1.6.tgz#e8b2fe3d7f1ab7d69a32199aff91ea6931409515"
   integrity sha1-6LL+PX8at9aaMhma/5HqaTFAlRU=
 
-"controll.thelastpagebookstoreaccount@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstoreaccount@0.0.0+build1658233920/public/_types/react":
+"controll.thelastpagebookstoreaccount@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstoreaccount@0.0.0+build1658267906/public/@types/controll.thelastpagebookstoreaccount":
   version "0.0.0"
-  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstoreaccount@0.0.0+build1658233920/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstoreaccount@0.0.0+build1658267906/public/@types/controll.thelastpagebookstoreaccount#7a0f9ed31fb71349f373b76cd50742a5ecd24c65"
 
 core-js@^1.0.0:
   version "1.2.7"
@@ -485,6 +485,10 @@ value-equal@^1.0.1:
 "vtex.my-account@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.25.0/public/@types/vtex.my-account":
   version "1.25.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.25.0/public/@types/vtex.my-account#3bc46389c0aa28f4e3e2e008fe3690f5901b1f2a"
+
+"vtex.order-manager@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager":
+  version "0.12.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager#2cf6a9d2a31bc503b783c257695b0d17c09b5696"
 
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
   version "8.132.4"

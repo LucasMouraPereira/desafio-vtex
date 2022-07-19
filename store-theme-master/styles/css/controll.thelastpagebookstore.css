@@ -24,6 +24,13 @@
   margin-bottom: 60px;
 }
 
+.textInformation {
+  width: 100%;
+  text-align: center;
+  color: #404041;
+  font-size: 24px;
+}
+
 .accountButton {
   width: 100%;
   font-weight: 500;
@@ -38,6 +45,15 @@
   background-color: #ff7300;
   border-radius: 2px;
   padding: 10px 20px;
+  cursor: pointer;
+}
+
+.errorInformation {
+  width: 100%;
+  color: red;
+  font-size: 10px;
+  margin-top: 16px;
+  text-align: center;
 }
 
 .bannerTitle {
@@ -70,7 +86,7 @@
   font-size: 36px;
   line-height: 120%;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .wrapperIconList {
