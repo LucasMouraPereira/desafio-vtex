@@ -38,8 +38,15 @@
     "children": [
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "flex-layout.col#productRating",
       "product-installments"
     ]
+  },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "cashback-value"
+    },
+    "children": ["CashbackValue"]
   },
   "modal-actions#quickview": {
     "props": {

@@ -1,8 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "thelastpagebookstore",
       "list-context.image-list#demo",
+      "CashbackContainerAccount",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
@@ -10,8 +10,6 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
       "newsletter"
     ]
   },
@@ -19,16 +17,16 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 570,
+      "height": 350,
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif",
+          "mobileImage": "https://i.postimg.cc/15WMxWBk/Frete-Gr-tis.gif"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://i.postimg.cc/QttxzdMG/2.png",
+          "mobileImage": "https://i.postimg.cc/QttxzdMG/2.png"
         }
       ]
     }
@@ -48,7 +46,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## LANÇAMENTOS",
       "blockClass": "shelfTitle"
     }
   },
@@ -80,26 +78,12 @@
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
+      "imageUrl": "https://i.postimg.cc/WpfYxCxr/Banner-para-Linkedin-capa-de-perfil-para-programador.png",
+      "headline": "Veja as principais tendências",
+      "callToActionText": "Confira",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }

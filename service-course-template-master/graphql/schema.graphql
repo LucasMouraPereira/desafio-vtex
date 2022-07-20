@@ -1,0 +1,30 @@
+input SaveValues {
+  rule: String
+  name: String
+  cashback: String
+  value: String
+}
+
+type SchemaValues {
+  value: String
+  rule: String
+  name: String
+  cashback: String
+  id: String
+}
+
+type ReturnValueSave {
+  Id: String
+  DocumentId: String
+  Href: String
+}
+
+type Query {
+  searchMasterdata: [SchemaValues]
+}
+
+type Mutation {
+  saveMasterdata(saveData: SaveValues): ReturnValueSave
+  updateMasterdata(id: String, saveValues: SaveValues): Boolean
+  deleteMasterdata(id: String): Boolean
+}

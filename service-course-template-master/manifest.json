@@ -1,0 +1,30 @@
+{
+  "name": "backend-cashback-controll-2",
+  "vendor": "controll",
+  "version": "0.0.0",
+  "title": "training-cashback-service",
+  "description": "training-cashback-service",
+  "builders": {
+    "docs": "0.x",
+    "graphql": "1.x",
+    "node": "6.x"
+  },
+  "scripts": {
+    "prereleasy": "bash lint.sh"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "controll.myvtex.com.br",
+        "path": "/*"
+      }
+    },
+    {
+      "name": "POWER_USER_DS"
+    }
+  ],
+  "dependencies": {},
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

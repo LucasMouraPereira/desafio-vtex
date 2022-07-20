@@ -103,6 +103,7 @@
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "flex-layout.col#productRating",
       "product-installments",
       "product-separator",
       "product-identifier.product",
@@ -115,6 +116,13 @@
       "shipping-simulator",
       "share#default"
     ]
+  },
+
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "cashback"
+    },
+    "children": ["CashbackValue"]
   },
 
   "flex-layout.row#product-name": {
