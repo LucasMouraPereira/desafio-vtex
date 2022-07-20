@@ -1,0 +1,72 @@
+.wrapperCashback {
+  font-family: San Francisco, -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+    sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #3f3f40;
+}
+
+.cashbackTitle {
+  padding: 2rem;
+}
+
+.cashbackBody {
+  width: 80%;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-radius: 0.25rem;
+  border-color: #e3e4e6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.userName {
+  color: #979899;
+}
+
+.userPts {
+  color: #ff7300;
+}
+
+.cashbackTable {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-radius: 0.25rem;
+  border-color: #e3e4e6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.cashbackTableHeader {
+  border: 1px solid;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-radius: 0.25rem;
+  border-color: #e3e4e6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.userTitle {
+  color: #404041;
+  text-transform: uppercase;
+  margin: 26px 0 26px 0;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+}
+
+.cashbackTitleHeader {
+  font-weight: bold;
+}
