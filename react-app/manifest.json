@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "vtex.product-context": "0.x",
+    "vtex.product-list-context": "0.x",
     "vtex.css-handles": "0.x",
     "vtex.store-icons": "0.x"
   },
