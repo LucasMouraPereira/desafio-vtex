@@ -17,5 +17,8 @@
   "CashbackContainerAccount": {
     "component": "CashbackContainerAccount",
     "composition": "children"
+  },
+  "PromotionBanner": {
+    "component": "PromotionBanner"
   }
 }

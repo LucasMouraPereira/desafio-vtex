@@ -178,3 +178,97 @@
   gap: 16px;
   padding: 20px 0 20px;
 }
+
+.wrapperPromotion {
+  width: 100%;
+  background: #b2102f;
+  color: #ffffff;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 680px) {
+  .wrapperPromotion {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+}
+
+.promotionTitle {
+  font-size: 100px;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+}
+
+@media only screen and (max-width: 1040px) {
+  .promotionTitle {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .promotionTitle {
+    font-size: 30px;
+  }
+}
+
+.wrapperTitle {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.promotionInfo {
+  font-size: 50px;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+}
+
+@media only screen and (max-width: 1040px) {
+  .promotionInfo {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .promotionInfo {
+    font-size: 20px;
+  }
+}
+
+.promotionText {
+  font-size: 30px;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  margin-inline-start: unset;
+  margin-inline-end: unset;
+}
+
+@media only screen and (max-width: 1040px) {
+  .promotionText {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .promotionText {
+    font-size: 16px;
+  }
+}

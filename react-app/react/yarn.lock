@@ -2254,9 +2254,9 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658178011/public/@types/controll.thelastpagebookstore":
+"controll.thelastpagebookstore@https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658370265/public/@types/controll.thelastpagebookstore":
   version "0.0.0"
-  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658178011/public/@types/controll.thelastpagebookstore#b827bec9a9fa436fff9077b2c0bea4b6d69af997"
+  resolved "https://devlucas--controll.myvtex.com/_v/private/typings/linked/v1/controll.thelastpagebookstore@0.0.0+build1658370265/public/@types/controll.thelastpagebookstore#f04fa56c36f4a6f35f6c430b2c2091ee599dfc16"
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -5224,6 +5224,10 @@ verror@1.10.0:
 "vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context":
   version "0.10.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context#c5e2a97b404004681ee12f4fff7e6b62157786cc"
+
+"vtex.product-list-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list-context@0.4.1/public/@types/vtex.product-list-context":
+  version "0.4.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list-context@0.4.1/public/@types/vtex.product-list-context#e17348f7c5a4b6d543da1ce8858a726cb6d72fae"
 
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
   version "8.132.4"
